@@ -1,0 +1,66 @@
+<div class="example-card">
+  <div class="example-card-title" data-intro='Hello step one!'>Shiba Inu</div>
+  <div class="example-card-subtitle">Small</div>
+  <img class="example-card-image" src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Shiba Inu">
+  <div class="example-card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+</div>
+
+<div class="example-card" id="step1">
+  <div class="example-card-title">Shiba Inu</div>
+  <div class="example-card-subtitle">Medium</div>
+  <img class="example-card-image" src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Shiba Inu">
+  <div class="example-card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+</div>
+
+<!-- Grid list -->
+<div class="example-grid-list">
+  <!-- Assuming tiles is an array of objects with cols, rows, color, and text properties -->
+  <div class="example-grid-tile" *ngFor="let tile of tiles; last as last" [style.background]="tile.color">
+    {{ tile.text }}
+  </div>
+</div>
+
+<div class="example-card">
+  <div class="example-card-title">Shiba Inu</div>
+  <div class="example-card-subtitle">Large</div>
+  <img class="example-card-image" src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Shiba Inu">
+  <div class="example-card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+</div>
+
+<div class="example-card">
+  <div class="example-card-header">
+    <div class="example-card-avatar"></div>
+    <div class="example-card-title">Shiba Inu</div>
+    <div class="example-card-subtitle">Dog Breed</div>
+  </div>
+  <img class="example-card-image" src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Shiba Inu">
+  <div class="example-card-content">
+    <p>
+      The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.
+    </p>
+  </div>
+  <div class="example-card-actions">
+    <button class="example-button" id="step4">LIKE</button>
+    <button class="example-button">SHARE</button>
+  </div>
+</div>
+
+<div class="example-card">
+  <div class="example-card-title">Shiba Inu</div>
+  <div class="example-card-subtitle">Extra large</div>
+  <img class="example-card-image" src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Shiba Inu">
+  <div class="example-card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+</div>
+
+<!-- Button sections -->
+<section class="example-section">
+  <div class="example-label">Basic</div>
+  <div class="example-button-row">
+    <button class="example-button">Basic</button>
+    <button class="example-button primary">Primary</button>
+    <button class="example-button accent">Accent</button>
+    <button class="example-button warn">Warn</button>
+    <button class="example-button" disabled>Disabled</button>
+    <a class="example-button" href="https://www.google.com/" target="_blank">Link</a>
+  </div>
+</section>
